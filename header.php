@@ -1,7 +1,7 @@
-<div class="page-header">
+<div class="well">
 	<div class="row">
 	
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		<div id="headerText2" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<h4>Awesome Shopping <big class="lead"><b>Application</b></big></h4>
 		</div>
 		

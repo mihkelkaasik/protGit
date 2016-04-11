@@ -7,7 +7,36 @@
 
 *{
 	font-family: 'Open Sans', sans-serif;
+	
+	-webkit-border-radius: 0 !important;
+       -moz-border-radius: 0 !important;
+            border-radius: 0 !important;
+	
+	margin:0;
+	padding:0;
 }
 
 body {
 	background-color: #c5d5cb;
+}
+
+.contentWellCol {
+	background-color: #e3e0cf;
+}
+.bgCol {
+	background-color: #e3e0cf;
+}
+
+.animate {
+	transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+	-webkit-transition: 2s ease-in-out;
+}
+
+#headerText2.animate{	
+	transform:translate(10em,0);
+	-moz-transform:translate(10em,0);
+	-webkit-transform:translate(10em,0);
+}	
+
+

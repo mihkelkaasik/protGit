@@ -16,22 +16,37 @@
   </head>
   <body>
 	
-	<div class="container">
+	<div class="container-fluid">
+		<div class="bgCol">
 		
-	<?php 
-	require "header.php"; 
-	require "navbar.php";
-	?>
+			<?php 
+				require "header.php"; 
+				require "navbar.php";
+			?>
 		
+			<div id="content" class="well well-lg contentWellCol">
+	
+				<?php 
+					require "productGrid.php"; 
+				?>
+	
+			</div>
 		
+			<?php 
+				require "footer.php"; 
+			?>			
+		
+		</div>
+
 		
 	</div>
 	
 	
-	
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
   </body>
 </html>
