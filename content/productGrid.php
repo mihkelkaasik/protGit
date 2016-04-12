@@ -1,5 +1,4 @@
 <div class="row">
-
 	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 		<div class="thumbnail">
 			<img src="media/hamburger.jpeg" alt="...">
