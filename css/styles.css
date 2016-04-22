@@ -29,7 +29,7 @@
 }
 
 body {
-	background-color: #e3e0cf;
+	background-color: #EAE9E1;
 }
 
 .navbar {
@@ -43,6 +43,16 @@ body {
 
 .well {
 	border: 0;
+}
+
+.homeCarouselPadding {
+	padding-bottom:15px;
+	padding-top: 15px;
+}
+
+footer>div.well {
+	margin-top:15px;
+	margin-bottom:0;
 }
 
 .navbarCol {
@@ -115,10 +125,8 @@ body {
 	margin-bottom:15px;
 }
 
-.carouselClipImg {
-    position: absolute;
-    clip: rect(0px,0px,400px,0px);
+.error-message{
+/* text-align:right; */
+text-align: left;
+padding-top: 7px;
 }
-
-
-

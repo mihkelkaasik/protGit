@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbarCol" role="navigation">
+<nav id="mainNavigation" class="navbar navbar-default navbarCol" role="navigation">
   <div class="container-fluid">
  
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -21,8 +21,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li class="active"><a href="#">Products</a></li>
+        <li class="active"><a href="content/home.php">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="content/products.php">Products</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
           <ul class="dropdown-menu">
